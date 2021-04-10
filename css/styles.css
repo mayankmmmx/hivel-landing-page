@@ -394,7 +394,11 @@ h6, .h6 {
 }
 
 .bigheader {
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+.logo-effect {
+  fill: #000000;
 }
 
 .content-valign {
