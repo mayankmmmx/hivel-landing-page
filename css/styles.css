@@ -582,7 +582,7 @@ pre code {
   };
 }
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   .container-sm, .container {
     max-width: 540px;
   }
