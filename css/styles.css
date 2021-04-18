@@ -582,7 +582,20 @@ pre code {
   };
 }
 
-@media (min-width: 360px) {
+@media (min-width: 350px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+  .bigheader {
+    font-size: 3rem;
+  }
+  .calendly-size {
+    min-width: 100px;
+    height:450px;
+  };
+}
+
+@media (min-width: 400px) {
   .container-sm, .container {
     max-width: 540px;
   }
