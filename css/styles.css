@@ -411,6 +411,11 @@ h6, .h6 {
   font-weight: 300;
 }
 
+.lead-2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -2485,7 +2490,7 @@ textarea.form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -10180,4 +10185,8 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.nodecor {
+  text-decoration: none;
 }
