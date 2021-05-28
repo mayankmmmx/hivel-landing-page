@@ -27,7 +27,7 @@
     var checkoutButton = document.getElementById("checkout-button");
 
     checkoutButton.addEventListener("click", function () {
-      fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/StripeLambda", {
+      fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/StripeLambda/", {
         method: "POST",
         mode: 'no-cors'
       })
