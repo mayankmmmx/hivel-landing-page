@@ -27,13 +27,18 @@
     var checkoutButton = document.getElementById("checkout-button");
 
     var data = {
-      'price_data': {
-            'currency': 'usd',
-            'unit_amount': 2500,
-            'product_data': {
-                'name': 'Hair Consultation'
+      'line_items': [ 
+        {
+          'price_data': {
+                'currency': 'usd',
+                'unit_amount': 2500,
+                'product_data': {
+                    'name': 'Hair Consultation'
+                },
             },
+          'quantity': 1,
         }
+      ]
     }
 
     checkoutButton.addEventListener("click", function () {
