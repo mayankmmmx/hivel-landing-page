@@ -39,7 +39,7 @@
     checkoutButton.addEventListener("click", function () {
       fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/checkout", {
         method: "POST",
-        //body: data,
+        body: JSON.stringify(data),
       })
         .then(function (response) {
           return response.json();
