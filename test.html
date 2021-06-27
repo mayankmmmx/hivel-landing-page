@@ -26,9 +26,20 @@
     var stripe = Stripe("pk_test_51HiOXCFHHxbM9ctm10sNaowc3mWToOlR1u5VITEgt3zKLKex3rvEpWg4zLiY9VbOpzncxRRbFkPHqvK0TJpDfjDL00GdVr8v60");
     var checkoutButton = document.getElementById("checkout-button");
 
+    var data = {
+      'price_data': {
+            'currency': 'usd',
+            'unit_amount': 2500,
+            'product_data': {
+                'name': 'Hair Consultation'
+            },
+        }
+    }
+
     checkoutButton.addEventListener("click", function () {
       fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/checkout", {
         method: "POST",
+        body: data,
       })
         .then(function (response) {
           return response.json();
