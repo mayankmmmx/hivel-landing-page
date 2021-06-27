@@ -27,8 +27,7 @@
     var checkoutButton = document.getElementById("checkout-button");
 
     checkoutButton.addEventListener("click", function () {
-      fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/helloworld", {
-      //fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/checkout", {
+      fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/checkout", {
         method: "POST",
       })
         .then(function (response) {
