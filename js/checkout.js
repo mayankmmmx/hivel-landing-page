@@ -1,4 +1,3 @@
-var stripe = Stripe("pk_live_51HiOXCFHHxbM9ctm1BGpp6amLZ604svd4c4Lu6brGPgXZV9pxXlXIQ9EkrTeePMyI8GlBbDqxbD1BdNIf48NzeZr00DY1HiJBB");
 var mayankCheckoutButton = document.getElementById("mayank-checkout-btn");
 var neekCheckoutButton = document.getElementById("neek-checkout-btn");
 
@@ -40,6 +39,7 @@ neekCheckoutButton.addEventListener("click", function () { checkout(styleData); 
 
 
 function checkout(data) {
+  var stripe = Stripe("pk_live_51HiOXCFHHxbM9ctm1BGpp6amLZ604svd4c4Lu6brGPgXZV9pxXlXIQ9EkrTeePMyI8GlBbDqxbD1BdNIf48NzeZr00DY1HiJBB");
 	fetch("https://3hpxbe0263.execute-api.us-east-1.amazonaws.com/default/checkout", {
 		method: "POST",
 		body: JSON.stringify(data),
