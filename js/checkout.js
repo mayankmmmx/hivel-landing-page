@@ -1,4 +1,4 @@
-var stripe = Stripe("pk_test_51HiOXCFHHxbM9ctm10sNaowc3mWToOlR1u5VITEgt3zKLKex3rvEpWg4zLiY9VbOpzncxRRbFkPHqvK0TJpDfjDL00GdVr8v60");
+var stripe = Stripe("pk_live_51HiOXCFHHxbM9ctm1BGpp6amLZ604svd4c4Lu6brGPgXZV9pxXlXIQ9EkrTeePMyI8GlBbDqxbD1BdNIf48NzeZr00DY1HiJBB");
 var mayankCheckoutButton = document.getElementById("mayank-checkout-btn");
 var neekCheckoutButton = document.getElementById("neek-checkout-btn");
 
@@ -7,7 +7,7 @@ var hairData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 2500,
+        'unit_amount': 3000,
         'product_data': {
           'name': 'Hair Session w/ Mayank',
           'description': 'This includes a 1:1 session where we discuss your hair/skin care needs, followed by personalized product and routine recommendations.'
@@ -23,7 +23,7 @@ var styleData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 2500,
+        'unit_amount': 3000,
         'product_data': {
           'name': 'Style Session w/ Neek',
           'description': 'This includes a 1:1 session where we discuss how to find or improve your style, followed by personalized outfit/style recommendations.'
