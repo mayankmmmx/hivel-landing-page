@@ -1,3 +1,4 @@
+var stripe = Stripe("pk_test_51HiOXCFHHxbM9ctm10sNaowc3mWToOlR1u5VITEgt3zKLKex3rvEpWg4zLiY9VbOpzncxRRbFkPHqvK0TJpDfjDL00GdVr8v60");
 var mayankCheckoutButton = document.getElementById("mayank-checkout-btn");
 var neekCheckoutButton = document.getElementById("neek-checkout-btn");
 
