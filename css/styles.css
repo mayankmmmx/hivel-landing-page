@@ -52,6 +52,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -64,11 +65,12 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #000000;
+  color: #FFFFFF;
   text-align: left;
-  background: url('../assets/img/background.png');
+  background-color: #0F0416;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -500,6 +502,35 @@ mark,
   height: auto;
 }
 
+.img-fluid-2 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.container-overlay {
+  position: relative;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0.7em;
+  left: 1em; 
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: white;
+  font-size: 20px;
+  padding: 11px;
+  text-align: left;
+  border-radius: 0.5em;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -507,6 +538,20 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
+.tags {
+  display: inline;
+  color: #A072C9;
+  background-color: #20013C;
+  border-radius: 0.6em;
+  padding: 0.4em;
+  margin-right: 0.2em;
+  text-align: left;
+}
+
+.social-link {
+  color: #5FC5DA;
 }
 
 .figure {
@@ -3001,6 +3046,19 @@ input[type=reset].btn-block,
 input[type=button].btn-block {
   width: 100%;
 }
+
+.btn-book {
+  color: #fff;
+  background-color: #4D007C;
+  width: 100%;
+  border-radius: 0.5em;
+  font-weight: 500;
+}
+.btn-book:hover {
+  color: #fff;
+  background-color: rgba(77, 0, 124, 0.7)
+}
+
 
 .fade {
   transition: opacity 0.15s linear;
@@ -6359,7 +6417,7 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 0.9rem !important;
 }
 
 .rounded-top {
@@ -10190,3 +10248,23 @@ footer.footer {
 .nodecor {
   text-decoration: none;
 }
+
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.home-btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  color: #fff;
+}
+
+
