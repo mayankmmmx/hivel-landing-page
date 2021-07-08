@@ -6,7 +6,7 @@ var hairData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 3000,
+        'unit_amount': 1500,
         'product_data': {
           'name': 'Hair Session w/ Mayank',
           'description': 'This includes a 1:1 session where we discuss your hair/skin care needs, followed by personalized product and routine recommendations.'
