@@ -65,7 +65,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #FFFFFF;
+  color: #828282;
   text-align: left;
   background-color: #0F0416;
   background-size: cover;
@@ -396,6 +396,7 @@ h6, .h6 {
   font-family: "Playfair Display";
   font-weight: 600;
   letter-spacing: 0.1rem;
+  color: #FFFFFF;
 }
 
 .logo-effect {
@@ -416,6 +417,10 @@ h6, .h6 {
 .lead-2 {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.lead-3 {
+  color: #FFF;
 }
 
 .display-1 {
@@ -650,7 +655,7 @@ pre code {
     max-width: 540px;
   }
   .bigheader {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .calendly-size {
     min-width: 100px;
@@ -662,7 +667,7 @@ pre code {
     max-width: 720px;
   }
   .bigheader {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   }
   .calendly-size {
     min-width: 300px;
@@ -674,7 +679,7 @@ pre code {
     max-width: 960px;
   }
   .bigheader {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .calendly-size {
     min-width: 300px;
@@ -686,7 +691,7 @@ pre code {
     max-width: 1140px;
   }
   .bigheader {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .calendly-size {
     min-width: 300px;
@@ -2092,10 +2097,10 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0.4rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -10268,3 +10273,17 @@ footer.footer {
 }
 
 
+.how-to {
+  background-color: #1D012E;
+  padding: 1em;
+  border-radius: 0.4em;
+}
+
+
+.product-offerings {
+  padding: 1em;
+  border-radius: 0.4em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #828282;
+}
