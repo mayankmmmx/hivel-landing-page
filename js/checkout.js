@@ -1,15 +1,15 @@
-var mayankCheckoutButton = document.getElementById("mayank-checkout-btn");
-var neekCheckoutButton = document.getElementById("neek-checkout-btn");
+var mayankCheckoutRoutine = document.getElementById("mayank-chkout-routine");
+var mayankCheckoutStyle = document.getElementById("mayank-chkout-style");
 
-var hairData = {
+var routineData = {
   'line_items': [ 
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 1500,
+        'unit_amount': 1000,
         'product_data': {
-          'name': 'Hair Session w/ Mayank',
-          'description': 'This includes a 1:1 session where we discuss your hair/skin care needs, followed by personalized product and routine recommendations.'
+          'name': 'Personlized hair routine w/ Mayank',
+          'description': 'Based on your hair type, current hair health, and desired hair, we figure out the best routine and products for you.'
         },
       },
     'quantity': 1,
@@ -22,10 +22,10 @@ var styleData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 3000,
+        'unit_amount': 1000,
         'product_data': {
-          'name': 'Style Session w/ Neek',
-          'description': 'This includes a 1:1 session where we discuss how to find or improve your style, followed by personalized outfit/style recommendations.'
+          'name': 'Hair cut and styling recommendation w/ Neek',
+          'description': 'Based on your hair type, facial structure, and style inspirations, we figure out the best hair style for you and how to make it happen.'
         },
       },
     'quantity': 1,
@@ -33,9 +33,9 @@ var styleData = {
   ]
 };
 
-mayankCheckoutButton.addEventListener("click", function () { checkout(hairData); });
+mayankCheckoutRoutine.addEventListener("click", function () { checkout(routineData); });
 
-neekCheckoutButton.addEventListener("click", function () { checkout(styleData); });
+mayankCheckoutStyle.addEventListener("click", function () { checkout(styleData); });
 
 
 function checkout(data) {
