@@ -24,7 +24,7 @@ var styleData = {
         'currency': 'usd',
         'unit_amount': 1000,
         'product_data': {
-          'name': 'Hair cut and styling recommendation w/ Neek',
+          'name': 'Hair cut and styling recommendation w/ Mayank',
           'description': 'Based on your hair type, facial structure, and style inspirations, we figure out the best hair style for you and how to make it happen.'
         },
       },
