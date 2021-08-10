@@ -6,7 +6,7 @@ var styleConsultData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 1000,
+        'unit_amount': 3000,
         'product_data': {
           'name': 'Style Consultations w/ Neek',
           'description': 'We’ll take a look at your current look, identify any gaps, and help you find the best style for you.'
@@ -22,7 +22,7 @@ var checkoutApparelReccsData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 1000,
+        'unit_amount': 3000,
         'product_data': {
           'name': 'Apparel and Accessories Recommendations w/ Neek',
           'description': 'Based on your current style preferences, we will find the best outfits and accessories that are within your budget.'
