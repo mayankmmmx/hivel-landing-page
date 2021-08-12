@@ -8,7 +8,7 @@ var routineData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 1000,
+        'unit_amount': 1500,
         'product_data': {
           'name': 'Personlized hair routine w/ BrownBoySelfCare',
           'description': 'Based on your hair type, current hair health, and desired hair, we figure out the best routine and products for you.'
@@ -24,7 +24,7 @@ var styleData = {
     {
       'price_data': {
         'currency': 'usd',
-        'unit_amount': 1000,
+        'unit_amount': 1500,
         'product_data': {
           'name': 'Hair cut and styling recommendation w/ BrownBoySelfCare',
           'description': 'Based on your hair type, facial structure, and style inspirations, we figure out the best hair style for you and how to make it happen.'
