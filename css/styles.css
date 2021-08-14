@@ -10287,3 +10287,8 @@ footer.footer {
   border-width: 1px;
   border-color: #828282;
 }
+
+.terms {
+  color: #828282;
+  text-decoration: none;
+}
